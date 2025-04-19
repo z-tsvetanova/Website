@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainsection.css">
+    <link rel="stylesheet" href="login.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lora:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <p></p>
+        </div>
+        <div class="nav-buttons">
+            <button>HOME</button>
+            <button>MASSAGES AND SPA</button>
+            <button>PROCEDURES</button>
+            <button>BEAUTY</button>
+            <button>ABOUT US</button>
+        </div>
+        <div class="nav-icons">
+            <button>
+                <i class="fa-solid fa-heart"></i>
+            </button>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button id="user">
+                <i class="fa-solid fa-user"></i>
+            </button>
+        </div>
+    </div>
+    <div id="main-section" class="main-section">
+        <div class="main-section-text-content">
+            <div>
+                <p class="first-tittle">DISCOVER WHO WE ARE
+                <div class="tittle-two-div">
+                    <p class="second-tittle"></p>
+                </div>
+            </div>
+
+            <div class="text-paragraph">
+                <p class="text-paragraph-one">Besides being a delicious dessert, chocolate can also be very beneficial
+                    for our body. One of the main advantages of chocolate is the presence of cocoa butter in its
+                    composition. Cocoa butter contains many antioxidants that remove toxins from our body. Cocoa butter
+                    fights free radicals, making the skin look firmer and more toned.
+                </p>
+                <p class="text-paragraph-two">Treat yourself to our chocolate spa magic for your senses and soul! You
+                    can choose between three
+                    types of chocolate – milk and dark.
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="book-now" onclick="window.location.href='book.html';">BOOK NOW</button>
+                <button class="read-more book-now">READ MORE</button>
+            </div>
+        </div>
+
+        <div class="main-section-img">
+            <img src="imgs/Minimalist Simple Beauty Photo Collage Instagram Post.png" alt="" />
+        </div>
+    </div>
+
+    <div id="login-section" class="login-section">
+        <h2 id="title">Login</h2>
+        <form>
+            <div>
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-container">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <a id="forgot-password" href="#">Forgot password?</a>
+            </div>
+            <div>
+                <button id="login">Login</button>
+                <a id="create" href="#">Create an account</a>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="register-section">
+        <h2 id="register-title">Create an account</h2>
+        <form>
+            <div class="input-container">
+                <input type="text" id="first-name" required>
+                <label for="first-name">First Name</label>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="last-name" required>
+                <label for="last-name">Last Name</label>
+            </div>
+
+            <div class="input-container">
+                <input type="email" id="register-email" required>
+                <label for="register-email">Email</label>
+            </div>
+
+            <div class="input-container">
+                <input type="password" id="register-password" required>
+                <label for="register-password">Password</label>
+            </div>
+
+            <button id="register-btn">Create</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+#title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #383838;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.input-container {
+    width: 536px;
+    height: 60px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid #000;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+#forgot-password {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #d890a3;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+#login {
+    width: 180px;
+    height: 55px;
+    background-color: #d890a3;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+}
+
+#login:hover {
+    background-color: #d890a3;
+}
+
+#create {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #d890a3;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    align-self: center;
+}
+
+#create:hover {
+    text-decoration: underline;
+}
+
+.register-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+    background: none;
+}
+
+#register-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #383838;
+}
+
+.register-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-container {
+    width: 536px;
+    height: 60px;
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid #000;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.input-container label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 16px;
+    pointer-events: none;
+    font-family: "Roboto", sans-serif;
+}
+
+#register-btn {
+    width: 180px;
+    height: 55px;
+    background-color: #d890a3;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    margin-top: 45px;
+    border-radius: 30px;
+
+}
